@@ -1,6 +1,6 @@
 services:
   nicegui:
-    build: .
+    build: ..
     container_name: nicegui
     ports:
       - "80:8080"
